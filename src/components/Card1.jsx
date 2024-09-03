@@ -2,7 +2,7 @@ import React from 'react';
 
 const Card1 = () => {
   return (
-    <div className='inline-block w-[720px] h-[316px] absolute bg-[#363C43] top-[40px] left-[722px] border border-gray-700 rounded-2xl'
+    <div className='inline-block w-[720px] h-[316px] relative bg-[#363C43] top-[28px] left-[722px] border border-gray-700 rounded-2xl'
     style={{ boxShadow: '6px 6px 3px ' }}
     >
       <div className='grid grid-cols-3 gap-6 w-[620px] h-[59px] absolute top-[20px] left-[58px] rounded-3xl px-3 bg-black p-2'>
