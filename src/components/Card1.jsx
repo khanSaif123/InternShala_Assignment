@@ -7,16 +7,17 @@ const Card1 = () => {
     >
       <div className='grid grid-cols-3 gap-6 w-[620px] h-[59px] absolute top-[20px] left-[58px] rounded-3xl px-3 bg-black p-2'>
         <div className='flex items-center justify-center bg-[#28292F] text-[#A3ADB2] rounded-2xl shadow-custom
-        hover:cursor-pointer hover:scale-110 transition-all duration-200 hover:bg-[#4A4E54] hover:text-white'
+        hover:cursor-pointer hover:btnShadow hover:scale-110 transition-all duration-200 hover:bg-[#4A4E54] hover:text-white'
+      
         >
           About Me
         </div>
         <div className='flex items-center justify-center bg-[#28292F] text-[#A3ADB2] rounded-2xl shadow-custom
-        hover:cursor-pointer hover:scale-110 transition-all duration-200 hover:bg-[#4A4E54] hover:text-white'>
+        hover:cursor-pointer hover:btnShadow hover:scale-110 transition-all duration-200 hover:bg-[#4A4E54] hover:text-white'>
           Experiences
         </div>
         <div className='flex items-center justify-center bg-[#28292F] text-[#A3ADB2] rounded-2xl shadow-custom
-        hover:cursor-pointer hover:scale-110 transition-all duration-200 hover:bg-[#4A4E54] hover:text-white'>
+        hover:cursor-pointer hover:btnShadow hover:scale-110 transition-all duration-200 hover:bg-[#4A4E54] hover:text-white'>
           Recommended
         </div>
       </div>
