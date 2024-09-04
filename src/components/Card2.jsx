@@ -29,7 +29,7 @@ const Card2 = () => {
 
   return (
     <div
-      className='inline-block w-[720px] h-[316px] relative bg-[#363C43] top-[68px] left-[722px] border border-gray-700 rounded-2xl'
+      className='inline-block w-[720px] h-[316px] relative bg-[#363C43] top-[68px] lg:left-[722px] md:left-[120px] border border-gray-700 rounded-2xl'
       style={{ boxShadow: '6px 6px 3px ' }}
     >
       {/* Gallery and btns */}
